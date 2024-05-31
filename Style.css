@@ -1,5 +1,6 @@
 /* Body styling */
 .body {
+    text-wrap: wrap;
     display: flex;
     background-image: url('background.jpg');
     background-size: contain;
@@ -12,6 +13,7 @@
 
 /* About section styling */
 .about {
+    text-wrap:wrap;
     display: flex;
     width: auto;
     height: 250px;
@@ -87,6 +89,7 @@
     transition: all 0.6s;
 }
 .ProjectBox {
+    text-wrap: wrap;
     display: flex;
     height: 250px;
     color: white;
